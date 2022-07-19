@@ -10,6 +10,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 ::selection {
@@ -21,8 +23,6 @@ body {
   background-image: url("https://assets.codepen.io/1462889/back-page.svg");
   background-size: cover;
   background-position: center;
-  margin: 0;
-  padding: 0;
 }
 
 p {
@@ -47,8 +47,8 @@ p {
   border-radius: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  left: 50%;
-  top: -50%;
+  left: -100px;
+  top: 50%;
   z-index: 5;
 }
 
@@ -78,6 +78,21 @@ p {
 }
 
 .img--1__wrap .cursor--2,
+.cursor--3 {
+  background-image: url("https://assets.codepen.io/1462889/sl1.jpg");
+}
+
+.img--2__wrap .cursor--2,
+.cursor--3 {
+  background-image: url("https://assets.codepen.io/1462889/sl1.jpg");
+}
+
+.img--3__wrap .cursor--2,
+.cursor--3 {
+  background-image: url("https://assets.codepen.io/1462889/sl1.jpg");
+}
+
+.img--4__wrap .cursor--2,
 .cursor--3 {
   background-image: url("https://assets.codepen.io/1462889/sl1.jpg");
 }

@@ -39,3 +39,42 @@ document.addEventListener("DOMContentLoaded", () => {
     bodyChange.classList.remove("img--1__wrap");
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hoverLink = document.querySelector(".img--2");
+  const bodyChange = document.querySelector("body");
+
+  hoverLink.addEventListener("mouseenter", (e) => {
+    bodyChange.classList.add("img--2__wrap");
+  });
+
+  hoverLink.addEventListener("mouseleave", () => {
+    bodyChange.classList.remove("img--2__wrap");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hoverLink = document.querySelector(".img--3");
+  const bodyChange = document.querySelector("body");
+
+  hoverLink.addEventListener("mouseenter", (e) => {
+    bodyChange.classList.add("img--3__wrap");
+  });
+
+  hoverLink.addEventListener("mouseleave", () => {
+    bodyChange.classList.remove("img--3__wrap");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hoverLink = document.querySelector(".img--4");
+  const bodyChange = document.querySelector("body");
+
+  hoverLink.addEventListener("mouseenter", (e) => {
+    bodyChange.classList.add("img--4__wrap");
+  });
+
+  hoverLink.addEventListener("mouseleave", () => {
+    bodyChange.classList.remove("img--4__wrap");
+  });
+});
